@@ -1,4 +1,4 @@
-package net.barope.mistbornmod.mixin;
+package net.barope.fallenashes.mixin;
 
 import net.minecraft.server.MinecraftServer;
 import org.spongepowered.asm.mixin.Mixin;

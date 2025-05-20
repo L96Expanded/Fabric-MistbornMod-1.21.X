@@ -1,4 +1,4 @@
-package net.barope.mistbornmod;
+package net.barope.fallenashes;
 
 import net.fabricmc.api.ModInitializer;
 
@@ -12,8 +12,5 @@ public class FallenAshes implements ModInitializer {
 	@Override
 	public void onInitialize() {
 
-	}
-
-	public static class FallenAshesClient {
 	}
 }

@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "net.barope.mistbornmod.mixin",
+	"package": "net.barope.fallenashes.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
 		"ExampleMixin"
