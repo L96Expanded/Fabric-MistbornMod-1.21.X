@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "fallenashes",
+	"version": "${version}",
+	"name": "FallenAshes",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Barope"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "MIT",
+	"icon": "assets/fallenashes/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.barope.mistbornmod.FallenAshes"
+		],
+		"fabric-datagen": [
+			"net.barope.mistbornmod.FallenAshesDataGenerator"
+		],
+		"client": [
+			"net.barope.mistbornmod.FallenAshesClient"
+		]
+	},
+	"mixins": [
+		"fallenashes.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.21.5",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
